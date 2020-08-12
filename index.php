@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost','root','nimmo1130','my_db');
+$con = mysqli_connect('nam-web', 'root', 'nimmo1130', 'my_db');
 $txtName = $_POST["txtName"];
 $txtBranch = $_POST["txtBranch"];
 $txtYear = $_POST["$txtYear"];
